@@ -5,4 +5,4 @@ Stefna Sódóma er að veita ungum íslenskum röppurum það fjármagn og aðha
 Tónlistarmönnunum verður gefinn sá kostur að gefa út efni ásamt því að fá fjármagn til að halda viðburði og tónleika.
 Sódóma mun þar að auki starfa sem einskonar umboðsmaður fyrir tónlistarmennina.
 
-Halló Hér er ég
+https://andri95.github.io/Lokaverkefni_V18/

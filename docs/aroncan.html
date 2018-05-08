@@ -13,7 +13,7 @@
 			<h1>//ARON CAN</h1>
 		</div>
 		<div class="forsida">
-			<a href="../forsida.html">//AFTUR Á FORSÍÐU</a>
+			<a href="index.html">//AFTUR Á FORSÍÐU</a>
 		</div>
 	</header>
 	<div class="efni">
@@ -31,9 +31,15 @@
 			    	<label for="modal__trigger">ÁÐDÁENDAKLÚBBUR</label>
 			    <div class="modal__overlay" role="dialog" aria-labelledby="modal__title" aria-describedby="modal_desc">
 			        <div class="modal__wrap">
-			            <label for="modal__trigger">&#10006;</label>
+			            <label for="modal__trigger" class="trigger">&#10006;</label>
 			            <h2 id="modal__title">HÉR GETUR ÞÚ SKRÁÐ ÞIG Í AÐDÁENDAKLÚBB ARONS</h2>
 			            <p id="modal__desc">FYLLTU INN UPPLÝSINGARNAR HÉR FYRIR NEÐAN OG FÁÐU SENT E-MAIL MEÐ NÝJUSTU FRÉTTUM UM LÖG OG TÓNLEIKA</p>
+			        
+			        	<form id="modal_form" action="none" method="post">
+			            <legend>SKRÁIÐ INN NAFN OG TÖLVUPÓST</legend>
+			            <input placeholder ="Nafn"type="text" name="nafn" id="nafnid"><br>
+			            <input placeholder="Email" type="email" name="tolvupostur">
+			        </form>
 			        </div>
 			    </div>
 			</div>
