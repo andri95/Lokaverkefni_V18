@@ -24,7 +24,7 @@ h1{
 }
 .forsida a{
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 20px;
 	text-decoration: none;
 	color: black;
@@ -135,9 +135,8 @@ img{
   transform: scale(0.97);
 }
 
-input {
-  position: absolute;
-  top: -1000px;
+.modal_trigger input {
+  display: none;
 }
 
 .modal__overlay {
@@ -151,5 +150,11 @@ input:checked ~ .modal__overlay {
   opacity: 1;
   transform: scale(1);
   z-index: 800;
+}
+
+/*==================================*/
+
+input{
+  display: block;
 }
 
